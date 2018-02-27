@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url('Lato-Hairline.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('Lato-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('Lato-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+    padding: 5px 5px 5px 5px;
+    width: 300px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: #3079B7;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.light {
+    font-weight: normal;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+#defaultSuccess {
+    color: #68A600;
+    display: none;
+}
+
+
+#time input {
+    padding: 5px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    display: block;
+    margin: 0px;
+    width: 100%;
+    text-align: right;
+    outline: none;
+    font-family: "Lato", sans-serif;
+}
+
+#time {
+    overflow: hidden;
+}
+
+#time .label {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    
+}
+
+#time section {
+    width: 33%;
+    padding: 0px 5px 5px 0px;
+    float: left;
+}
+
+#time section:nth-child(3)  {
+    width: 34%;
+    padding-right: 0px;
+}
+
+
+#time button {
+    width: 100%;
+}
+
+header {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 1px solid #000;
+}
+
+footer {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    text-align: right;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    background-color: #3079B7;
+    background: -webkit-linear-gradient(#3079B7, #296da7);
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #296da7;
+    border-radius: none;
+    height: 29px;
+    outline: none;
+    font-size: 14px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#stop {
+    display: none;
+}
+.bloggood-ru-div
+{
+display: none;
+}
+a.bloggood-ru-ssilka:hover+div
+{
+display: block;
+}
